@@ -53,6 +53,10 @@ namespace CppCLRWinformsProjekt {
 			return out;
 		}
 
+		void formatTxt() {
+
+		}
+
 		vector<Int32> minToMax(vector<Int32> originalArray) {
 			array< Int32 >^ tmpArr = gcnew array< Int32 >(originalArray.size());
 			vector<Int32> out;
@@ -625,6 +629,7 @@ private: System::Windows::Forms::Label^ label1;
 			this->opnFileBtn->TabIndex = 13;
 			this->opnFileBtn->Text = L"ֲגמה טח פאיכא";
 			this->opnFileBtn->UseVisualStyleBackColor = true;
+			this->opnFileBtn->Click += gcnew System::EventHandler(this, &Form1::opnFileBtn_Click);
 			// 
 			// textBox7
 			// 
@@ -838,5 +843,20 @@ private: System::Void Form1_KeyPress(System::Object^ sender, System::Windows::Fo
 }
 
 
+private: System::Void opnFileBtn_Click(System::Object^ sender, System::EventArgs^ e) {
+	String^ Filename = "";
+	if (openFileDialog1->ShowDialog() == Windows::Forms::DialogResult::OK) {
+		Filename = openFileDialog1->FileName;
+
+	}
+	try {
+		StreamReader^ file = File::OpenText(Filename);
+		MessageBox::Show(file->ReadToEnd());
+	}
+	catch (...) {
+		MessageBox::Show("error has been occured");
+	}
+
+}
 };
 }

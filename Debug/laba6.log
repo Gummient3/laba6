@@ -21,8 +21,8 @@ C:\Users\rikud\source\repos\laba6\Form1.h(149,46): warning C4677: getAvg: сиг
 C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
 C:\Users\rikud\source\repos\laba6\Form1.h(180,56): warning C4677: generate: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
 C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
-C:\Users\rikud\source\repos\laba6\Form1.h(704,3): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-C:\Users\rikud\source\repos\laba6\Form1.h(703,9): warning C4101: fp: неиспользованная локальная переменная
+C:\Users\rikud\source\repos\laba6\Form1.h(705,3): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\rikud\source\repos\laba6\Form1.h(704,9): warning C4101: fp: неиспользованная локальная переменная
 C:\Users\rikud\source\repos\laba6\Form1.h(153): warning C4700: использована неинициализированная локальная переменная "avg"
   AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
   laba6.vcxproj -> C:\Users\rikud\source\repos\laba6\Debug\laba6.exe
