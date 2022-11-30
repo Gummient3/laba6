@@ -1,0 +1,28 @@
+﻿  CppCLR_WinformsProjekt.cpp
+C:\Users\rikud\source\repos\laba6\Form1.h(30,30): warning C4677: originalArray: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(42,55): warning C4677: maxToMin: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(56,55): warning C4677: minToMax: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(69,48): warning C4677: getEven: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(85,47): warning C4677: getOdd: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(100,46): warning C4677: getSum: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(112,47): warning C4677: findMax: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(124,47): warning C4677: findMin: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(135,54): warning C4677: ArrayToString: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(149,46): warning C4677: getAvg: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(180,56): warning C4677: generate: сигнатура члена, не являющегося частным, содержит частный тип сборки "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(30): message : см. объявление "cliext::vector<int>"
+C:\Users\rikud\source\repos\laba6\Form1.h(704,3): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\rikud\source\repos\laba6\Form1.h(703,9): warning C4101: fp: неиспользованная локальная переменная
+C:\Users\rikud\source\repos\laba6\Form1.h(153): warning C4700: использована неинициализированная локальная переменная "avg"
+  AssemblyInfo.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  laba6.vcxproj -> C:\Users\rikud\source\repos\laba6\Debug\laba6.exe
